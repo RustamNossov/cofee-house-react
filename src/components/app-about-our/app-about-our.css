@@ -1,0 +1,45 @@
+section.about-our {
+  position: relative;
+}
+
+section.about-our .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1em;
+  margin-top: 50px;
+}
+
+section.about-our .container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 242px;
+}
+
+section.about-our .container .right-side-block {
+  text-align: center;
+  padding: 0 3%;
+  margin-top: 0;
+  max-width: 380px;
+}
+
+section.about-our .container .right-side-block h2 {
+  line-height: 10px;
+}
+
+section.about-our .container .right-side-block img {
+  display: block;
+  margin: 0 auto;
+}
+
+section.about-our .container .line {
+  margin-top: 53px;
+  border-bottom: 1px solid black;
+  width: 215px;
+}
+/*# sourceMappingURL=app-about-our.css.map */

@@ -1,0 +1,26 @@
+section.about-us {
+    //text-align: center;
+    .container {
+        padding: 50px 130px;
+        margin: 0 auto;
+        
+        h2, p {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    section.about-us {
+        //text-align: center;
+        .container {
+            padding: 30px 2em;
+        }}
+
+}
+

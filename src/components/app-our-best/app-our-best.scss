@@ -1,0 +1,20 @@
+section.our-best {
+    background: url('../../images/paper.png');
+    .container {
+        padding-top: 70px;
+
+        h2 {
+            text-align: center;
+        }
+
+        .best-items {
+            max-width: 800px;
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap;
+            padding: 10px 40px 100px;
+
+        }
+        
+    }
+}

@@ -1,0 +1,74 @@
+
+.header-main-page {
+    width: 100%;
+    height: 570px;
+    background: rgb(250, 179, 113) url('../../images/desk-791178_1920.png') ;
+    
+    color: white;
+    background-repeat:no-repeat;
+    // background-position: -115px -20px ;  
+
+    .header-container {
+
+        text-align: center;
+        margin-top: 6.5em;
+        padding: 1em;
+
+        img{
+            width: 13.5em;
+            margin-top: -1.1em;
+           
+        }
+        h1, h2 {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            margin: 13px;
+        }
+
+        .link-button {
+            margin-top: 20px;
+
+
+            a {
+                
+                text-decoration: none;
+                color: white;
+                border: 1px solid white;
+                border-radius: 3px;
+                padding: 2px 35px;
+
+                &:hover {
+                    box-shadow:0 0 20px white;
+                    background:rgba(255, 255, 255, 0.4);
+                }
+            }
+            
+
+            
+        }
+    }
+}
+
+.header-about-our-cofee {
+    background: #494844 url('../../images/coffee-shop.png') ;
+    background-repeat:no-repeat;
+    height: 230px;
+
+    
+
+    .header-container {
+
+        margin-top: unset;
+
+    }
+    
+}
+
+@media only screen and (min-width: 1435px) {
+    .header-main-page {
+        background-size: 100%;
+        
+    }
+}

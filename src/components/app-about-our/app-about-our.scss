@@ -1,0 +1,42 @@
+section.about-our {
+    position: relative;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        padding: 1em;
+        margin-top: 50px;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 242px;
+            
+
+        }
+
+        .right-side-block {
+            text-align: center;
+            padding: 0 3%;
+            margin-top: 0;
+            max-width: 380px;
+            
+            h2{
+                line-height: 10px;
+            }
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }   
+        }
+
+        .line {
+            margin-top: 53px;
+            border-bottom: 1px solid black ;
+            width: 215px;
+            //height: 5px;
+        }
+    }
+}

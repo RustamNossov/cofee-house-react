@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,OAFG,AAAA,cAAc,CAEjB,WAAW,CAAC;EACR,OAAO,EAAC,IAAI;EACZ,eAAe,EAAE,YAAY;EAC7B,SAAS,EAAE,IAAI;CAGlB",
+    "sources": [
+        "goods-section.scss"
+    ],
+    "names": [],
+    "file": "goods-section.css"
+}

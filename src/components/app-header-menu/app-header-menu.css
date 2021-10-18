@@ -1,0 +1,72 @@
+.header-menu {
+  padding-top: 25px;
+}
+
+.header-menu .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: left;
+  max-width: 355px;
+  margin-left: 10%;
+}
+
+.header-menu .container .navbar {
+  padding-top: 17px;
+}
+
+.header-menu .container .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.header-menu .container .navbar ul li {
+  margin-left: 2.3em;
+}
+
+.header-menu .container .navbar ul li a {
+  text-decoration: none;
+  font-size: .8em;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-menu .container .navbar ul li a:hover {
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.7);
+}
+
+.header-menu .container .logo a img {
+  height: 2.8em;
+}
+
+.header-menu-bottom .container {
+  margin: 0 auto;
+}
+
+.header-menu-bottom .container .navbar {
+  padding-top: 20px;
+}
+
+.header-menu-bottom .container .navbar ul li a {
+  color: black;
+  text-shadow: unset;
+}
+
+.header-menu-bottom .container .navbar ul li a:hover {
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 485px) {
+  .header-menu .container .navbar {
+    display: none;
+  }
+  .header-menu-bottom .container .logo {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=app-header-menu.css.map */
